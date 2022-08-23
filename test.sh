@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cargo build && \
-(cd target/debug; cat ../../test.txt | ./jsonprsr)
+(cd target/debug; cat ../../test.txt | ./slogprint)
